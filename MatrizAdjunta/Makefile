@@ -4,7 +4,7 @@ LFLAGS = -Wall
 LIBS = -lm
 
 main: main.c
-	$(CC) $(LFLAGS) -o app main.c -lm 
+	$(CC) $(LFLAGS) $(LIBS) -o app main.c 
 
 clean:
 	rm -f *.o main
