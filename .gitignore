@@ -42,6 +42,8 @@
 *.idb
 *.pdb
 
+app
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
